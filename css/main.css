@@ -146,3 +146,14 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
+
+  .link-snotty {
+    color: #D3CE3D;
+    text-decoration: none;
+  }
+  .link-snotty:hover {
+    color: #B8B325
+  }
+  .text-peachy {
+    color: #f2ae7e;
+  }
