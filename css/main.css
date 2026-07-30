@@ -57,13 +57,13 @@
   background-color: #FFB79D; }
 
 .timeline-card-success {
-  border-left-color: #D3CE3D; }
+  border-left-color: #37bc9b; }
 
 .timeline-card-success:before {
-  border-color: #D3CE3D; }
+  border-color: #37bc9b; }
 
 .timeline-card-success:after {
-  background-color: #D3CE3D; }
+  background-color: #37bc9b; }
 
 html {
   scroll-behavior: smooth; }
@@ -148,7 +148,7 @@ footer a:not(.nav-link) {
     page-break-before: always; } }
 
   .link-snotty {
-    color: #D3CE3D;
+    color: #37bc9b;
     text-decoration: none;
   }
   .link-snotty:hover {
