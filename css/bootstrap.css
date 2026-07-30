@@ -47,8 +47,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #434A54;
-  background-color: #F4FAD2;
+  color: #51331b;
+  background-color: #fff1f5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -5543,7 +5543,7 @@ textarea.form-control-lg {
   text-align: center !important; }
 
 .text-primary {
-  color: #7691f3 !important; }
+  color: #e25077 !important; }
 
 .text-secondary {
   color: #656D78 !important; }
@@ -5573,7 +5573,8 @@ textarea.form-control-lg {
   color: #434A54 !important; }
 
 .text-muted {
-  color: #6c757d !important; }
+  color: #51331b !important;
+  opacity: .8;}
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important; }
@@ -5597,7 +5598,7 @@ textarea.form-control-lg {
   line-height: 2 !important; }
 
 .bg-primary {
-  background-color: #FFB79D !important; }
+  background-color: #e25077 !important; }
 
 .bg-secondary {
   background-color: #656D78 !important; }
