@@ -48,7 +48,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #51331b;
-  background-color: #fff1f5;
+  background-color: #eafffa;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -5598,13 +5598,14 @@ textarea.form-control-lg {
   line-height: 2 !important; }
 
 .bg-primary {
-  background-color: #e25077 !important; }
+  background-color: #e25077 !important;
+opacity: .8!important;}
 
 .bg-secondary {
   background-color: #656D78 !important; }
 
 .bg-success {
-  background-color: #D3CE3D !important; }
+  background-color: #37bc9b !important; }
 
 .bg-info {
   background-color: #3BAFDA !important; }
