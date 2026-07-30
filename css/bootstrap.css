@@ -48,7 +48,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #51331b;
-  background-color: #eafffa;
+  background-color: #1c0e02;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -5626,7 +5626,7 @@ opacity: .8!important;}
   background-color: #F5F7FA !important; }
 
 .bg-white {
-  background-color: #fff !important; }
+  background-color: #fffaf6 !important; }
 
 .bg-transparent {
   background-color: transparent !important; }
