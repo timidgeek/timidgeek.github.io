@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Ellapay Payment Processor",
+    "date": "2026",
+    "body": "This is the landing page I designed and developed for the latest project at my current company, a fintech company specializing in ATM software. My primary responsibility is building the next-generation platform that will replace our flagship financial software used daily by businesses that do not accept cash. While my role spans the full stack, I especially enjoy opportunities to focus on front-end development and creating polished, intuitive user experiences.",
+    "image": "EllapayHome.png",
+    "url": "https://ellapay.com/",
+    "skills": [
+      "React + Typescript",
+      "Tanstack Router",
+      "Plaid",
+      "C# / ASP.NET",
+      "MS SQL Server",
+      "AWS",
+      "Xamarin.Android"
+    ]
+  },
+  {
+    "title": "Client Therapy Website",
+    "date": "2024",
+    "body": "My first freelance project was a website for a local therapist who gave me a lot of creative freedom. With little content or visual direction provided, I explored the design in Figma, created several color themes, and took the site from concept to code. I loved creating this project, and it eventually became the foundation for the personal website you are seeing today. Evolving it into my own site reminded me why I got into web development in the first place: I love creating, solving problems, and bringing ideas to life through technology.",
+    "image": "TherapySite.gif",
+    "skills": [
+      "React + Javascript",
+      "NPM",
+      "Tailwind CSS",
+      "Figma",
+      "Canva",
+      "Siteground hosting"
+    ]
+  },
+  {
+    "title": "Skillville",
+    "date": "2024",
+    "body": "The capstone project of my time at Atlas and one of my earliest projects as a developer. I was the solo Full Stack developer and built the website from scratch in just two weeks. Skillville is an educational video game designed to teach children valuable life skills. While my skills have grown considerably since then, this project still holds a special place in my portfolio as an early example of my love for creative, user focused development.",
+    "image": "sv-play.png",
+    "url": "https://skillville.me/",
+    "skills": [
+      "React + Javascript",
+      "Vanilla CSS",
+      "Figma",
+      "Canva",
+      "Namecheap"
+    ]
+  }
+]

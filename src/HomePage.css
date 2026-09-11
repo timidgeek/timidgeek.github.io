@@ -1,0 +1,336 @@
+:root {
+}
+
+.color-effect {
+  background: linear-gradient(120deg, var(--color-primary) 30%, var(--color-secondary) 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* form stuff */
+form label {
+  text-transform: lowercase;
+  font-size: .9rem;
+  letter-spacing: 1.5px;
+}
+form input, form textarea {
+  border-color: var(--color-text);
+}
+form input:focus, form textarea:focus {
+  outline-color:var(--color-accent);
+}
+
+/* mobile background images */
+.mobile-home {
+  height: calc(100vh - 4.4rem);
+  background-image: url(./assets/svgs/mob2.svg);
+  background-position: center bottom 0;
+  background-repeat: no-repeat;
+
+}
+.services-mobile {
+  background-image: url(./assets/svgs/ServicesMobile.svg);
+  background-position: center bottom 0;
+  background-repeat: no-repeat;
+  height: 1700px;
+}
+
+.contact-mobile {
+  /* height: calc(100vh); */
+  /* background-image: url(./assets/svgs/ContactMobile.svg);
+  background-position: center bottom 0;
+  background-repeat: no-repeat; */
+  /* height: 900px; */
+}
+
+
+.services-tablet {
+  background-size: cover!important;
+}
+
+
+/* desktop background images */
+.contact-container {
+  height: 100vh;
+
+  background-image: url(./assets/svgs/Contact.svg);
+  background-position: bottom 0px right 50%;
+  background-repeat: no-repeat;
+}
+
+
+/* button styles */
+.text-button,
+.primary-button,
+.text-outline-button,
+.accent-button,
+.secondary-button {
+  padding: .75rem 1.75rem;
+  border-radius: 15px;
+  text-transform: lowercase;
+  font-size: .75rem;
+  /* font-weight: 600; */
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: .2s;
+  opacity: 1;
+}
+.primary-button:hover,
+.accent-button:hover,
+.secondary-button:hover,
+.text-button:hover,
+.primary-button:hover {
+  opacity: .75;
+}
+.accent-button {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+}
+.primary-button {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+.text-outline-button {
+  border: 2px solid var(--color-text);
+  color: var(--color-text);
+}
+.secondary-button {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+.text-button,
+.text-outline-button:hover {
+  background-color: var(--color-text);
+  color: var(--color-light);
+}
+
+/* main styles */
+body {
+  color: var(--color-text);
+}
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--body-font);
+  font-weight: var(--header-font-weight);
+  letter-spacing: 2px;
+}
+
+h1 {
+  line-height: 1.2;
+  font-size: 27px;
+}
+h2 {
+  font-size: 21px;
+}
+h3 {
+  font-size: 18px;
+}
+h4, h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    line-height: 1.4;
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 27px;
+  }
+  h4 {
+    font-size: 21px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+}
+
+/* header */
+header {
+  box-shadow: none;
+  transition: box-shadow 0.18s ease;
+}
+header.scrolled {
+  background-color: var(--color-bg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+.header-nav > li button {
+  transition: .2s;
+  cursor: pointer;
+  text-transform: lowercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.header-nav > li:hover {
+  transition: .2s;
+  opacity: 70%;
+}
+.hover-effect:hover {
+  transition: 0.5s;
+  color: var(--color-accent);
+}
+.hover-effect-pink:hover {
+  transition: 0.5s;
+  color: var(--color-primary);
+}
+/* hamburger icon */
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+#nav-icon4 span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(2) {
+  top: 18px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(3) {
+  top: 36px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon4.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+}
+
+#nav-icon4.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-icon4.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 39px;
+  left: 8px;
+}
+
+
+/* animations */
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100%); }
+}
+
+.slide-down {
+  animation: slideDown 0.3s ease-out forwards;
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease-out forwards;
+}
+
+
+/* media queries */
+@media (max-height: 725px) {
+  .xs-mobile {
+    margin-top: 3rem;
+  }
+}
+
+  /* tiny mobile */
+  @media (max-height: 750px) {
+    .services-mobile {
+      height: 1750px!important;
+    }
+  }
+
+  /* medium mobile */
+  /* @media (max-height: 850px) {
+    .mobile-form {
+      margin: 0 3rem;
+    }
+  }
+  @media (max-width: 420px) {
+    .mobile-form {
+      margin: 0 3rem;
+    }
+  } */
+
+    /**/
+    @media (min-width: 420px) {
+      .contact-mobile {
+        background-image: url(./assets/svgs/Contact.svg);
+        background-position: bottom 0px right 50%;
+        background-repeat: no-repeat;
+      }
+      .mobile-home {
+        background-position: bottom -1px right 5vw;
+        background-size: 90%;
+      }
+    }
+
+/* conditional rendering for desktop component */
+    @media (min-width: 1280px) {
+      .mobile-only { display: none; }
+      .desktop-only { display: block; }
+    }
+    
+    @media (max-width: 1279px) {
+      .mobile-only { display: block; }
+      .desktop-only { display: none; }
+    }
+
+@media (min-width: 1000px) and (max-height: 600px) {
+  .homepage {
+    min-height: 700px;
+  }
+}
+/* overrides */
+html {
+  scroll-padding-top: 60px;
+}

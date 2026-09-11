@@ -1,1 +1,0 @@
-Lindsey's personal website 💅
