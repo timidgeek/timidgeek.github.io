@@ -40,7 +40,7 @@ const Footer = forwardRef((props, ref) => {
 
       <ul className='hidden header-nav lg:flex items-center gap-10 pr-10'>
         <li><button onClick={() => smoothScroll('about')}>About</button></li>
-        <li><button onClick={() => smoothScroll('services')}>Services</button></li>
+        <li><button onClick={() => smoothScroll('projects')}>Projects</button></li>
         <li><button onClick={() => smoothScroll('contact')}>Contact</button></li>
         <li><a href='https://www.linkedin.com/in/timidgeek/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedin} size='xl' /></a></li>
       </ul>
