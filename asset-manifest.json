@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7fe65cb2.css",
+    "main.js": "/static/js/main.d955b43f.js",
+    "static/media/TherapySite.gif": "/static/media/TherapySite.5e0ffc8a06fe8dcc1d93.gif",
+    "static/media/squiggle-frame.svg": "/static/media/squiggle-frame.3896fedadb8f601aea1c8931d4d5cbe0.svg",
+    "static/media/squiggle-circle.svg": "/static/media/squiggle-circle.e14b1aedae01838a04fc0f0c62cfc472.svg",
+    "static/media/EllapayHome.png": "/static/media/EllapayHome.332eed1594b590ab6382.png",
+    "static/media/sv-play.png": "/static/media/sv-play.8eb951613b66fc028b79.png",
+    "static/media/headshot_cropped.jpg": "/static/media/headshot_cropped.0c5a0434907980e8351b.jpg",
+    "static/media/LindseyThomas_Frontend_Resume_2026.pdf": "/static/media/LindseyThomas_Frontend_Resume_2026.10a0e9300d7320c05018.pdf",
+    "static/media/ServicesMobile.svg": "/static/media/ServicesMobile.d2131c51d08478941dd1.svg",
+    "static/media/mob2.svg": "/static/media/mob2.d7f2123208e65ddd77f5.svg",
+    "static/media/Sunburst.svg": "/static/media/Sunburst.10a7ca9578969e152447ce5f57963967.svg",
+    "static/media/Contact.svg": "/static/media/Contact.57b5bd82f2430fed65f3.svg",
+    "index.html": "/index.html",
+    "main.7fe65cb2.css.map": "/static/css/main.7fe65cb2.css.map",
+    "main.d955b43f.js.map": "/static/js/main.d955b43f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fe65cb2.css",
+    "static/js/main.d955b43f.js"
+  ]
+}
