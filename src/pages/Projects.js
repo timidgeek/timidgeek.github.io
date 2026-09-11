@@ -73,7 +73,7 @@ const Projects = () => {
   };
 
   return (
-    <div id='projects' className='bg-bg flex flex-col p-10 md:pt-20 lg:p-0 lg:pb-20'>
+    <div id='projects' className='bg-bg flex flex-col p-10 md:pt-20 lg:p-0 lg:py-20'>
       <div
         ref={sectionRef}
         className={`md:w-[85vw] 2xl:max-w-[1400px] mx-auto ${sectionInView ? 'animate-bubble-in' : 'opacity-0'}`}
