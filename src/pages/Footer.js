@@ -19,7 +19,7 @@ const Footer = forwardRef((props, ref) => {
 	});
 
   return (
-    <div ref={ref} id='footer' className='bg-text w-full text-bg z-[55] relative lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between'>
+    <div ref={ref} id='footer' className='bg-text w-full text-light z-[55] relative lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between'>
       <div>
         <nav className='flex'>
           <div className='p-5 xxs:pl-5 items-center w-full'>
@@ -38,7 +38,7 @@ const Footer = forwardRef((props, ref) => {
         </div>
       </div>
 
-      <ul className='hidden header-nav lg:flex text-bg items-center gap-10 pr-10'>
+      <ul className='hidden header-nav lg:flex items-center gap-10 pr-10'>
         <li><button onClick={() => smoothScroll('about')}>About</button></li>
         <li><button onClick={() => smoothScroll('services')}>Services</button></li>
         <li><button onClick={() => smoothScroll('contact')}>Contact</button></li>

@@ -32,7 +32,7 @@
   {
     "title": "Skillville",
     "date": "2024",
-    "body": "The capstone project of my time at Atlas and one of my earliest projects as a developer. I was the solo Full Stack developer and built the website from scratch in just two weeks. Skillville is an educational video game designed to teach children valuable life skills. While my skills have grown considerably since then, this project still holds a special place in my portfolio as an early example of my love for creative, user focused development.",
+    "body": "The capstone project of my time at Atlas and one of my earliest projects as a developer. I was the solo Full Stack developer, responsible for building the website from scratch in just two weeks. Skillville is an educational video game designed to teach children valuable life skills through interactive gameplay. While my skills have grown considerably since then, this project still holds a special place in my portfolio. It is a snapshot of where I was early in my development career and how much I have grown since.",
     "image": "sv-play.png",
     "url": "https://skillville.me/",
     "skills": [
@@ -40,7 +40,7 @@
       "Vanilla CSS",
       "Figma",
       "Canva",
-      "Namecheap"
+      "Namecheap hosting"
     ]
   }
 ]

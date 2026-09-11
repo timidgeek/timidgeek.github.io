@@ -19,39 +19,43 @@ const ProjectCard = ({ project }) => (
       <img src={getImage(project.image)} alt={project.title} className='max-h-[220px] w-auto object-contain rounded-xl' />
     </div>
 
-    <div className='flex flex-col gap-4 p-8 lg:w-3/5 xl:w-full'>
-      <div className='flex items-center justify-between gap-3'>
-        <div className='flex items-center gap-3'>
-          <span className='flex items-center justify-center rounded-full bg-primary/20 h-9 w-9 shrink-0'>
-            <Sparkle style={{ height: 18, width: 18, color: 'var(--color-secondary)' }} />
-          </span>
-          <h4 className=''>{project.title}</h4>
+    <div className='flex flex-col justify-between gap-4 p-8 lg:h-full lg:w-3/5 xl:w-full'>
+      
+      <div className='flex flex-col gap-3'>
+        <div className='flex items-center justify-between gap-3'>
+          <div className='flex items-center gap-3'>
+            <span className='flex items-center justify-center rounded-full bg-primary/20 h-9 w-9 shrink-0'>
+              <Sparkle style={{ height: 18, width: 18, color: 'var(--color-secondary)' }} />
+            </span>
+            <h4 className=''>{project.title}</h4>
+          </div>
+          {project.date && (
+            <span className='text-xs text-text/50 font-medium shrink-0'>{project.date}</span>
+          )}
         </div>
-        {project.date && (
-          <span className='text-xs text-text/50 font-medium shrink-0'>{project.date}</span>
+        <p className='text-text/75 text-sm'>{project.body}</p>
+      </div>
+
+      <div>
+        <ul className='flex flex-wrap gap-2 mt-3 xl:justify-center'>
+          {project.skills.map((skill) => (
+            <li key={skill} className='rounded-full bg-text/10 text-text text-sm px-4 py-1 font-medium '>
+              {skill}
+            </li>
+          ))}
+        </ul>
+        {project.url && (
+          <a
+            href={project.url}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='block accent-button mt-4 w-fit mx-auto lg:mx-0 xl:mx-auto text-center'
+          >
+            View Live Project
+          </a>
         )}
       </div>
 
-      <p className='text-text/75 text-sm'>{project.body}</p>
-
-      <ul className='flex flex-wrap gap-2 mt-3'>
-        {project.skills.map((skill) => (
-          <li key={skill} className='rounded-full bg-text/10 text-text text-sm px-4 py-1 font-medium'>
-            {skill}
-          </li>
-        ))}
-      </ul>
-
-      {project.url && (
-        <a
-          href={project.url}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='accent-button mt-2 w-fit mx-auto text-center'
-        >
-          View Live Project
-        </a>
-      )}
     </div>
   </div>
 );
