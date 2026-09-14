@@ -90,13 +90,13 @@ const Contact = () => {
 
         <div
           ref={formRef}
-          className={`mt-8 lg:mt-0 bg-light lg:w-1/2 lg:max-w-[550px] rounded-[40px] ${formInView ? 'animate-bubble-in' : 'opacity-0'}`}
+          className={`mt-8 w-full lg:mt-0 bg-light lg:w-1/2 md:max-w-[550px] rounded-[40px] ${formInView ? 'animate-bubble-in' : 'opacity-0'}`}
           style={{ animationDelay: '60ms' }}
         >
           <form
             // action="https://formspree.io/f/mzzpdbon"
             // method="POST"
-            className="bg-text/40 space-y-4 mobile-form p-6 rounded-[40px] lg:p-8"
+            className="bg-text/40 space-y-4 p-6 rounded-[40px] lg:p-8"
             onSubmit={handleSubmit}>
 
             <div>
@@ -113,8 +113,8 @@ const Contact = () => {
               {formErrors.name && <span className='text-red-500'>{formErrors.name}</span>}
             </div>
 
-            <div className='flex justify-between gap-4 lg:gap-6'>
-              <div className='w-[50%]'>
+            <div className='flex flex-col md:flex-row justify-between gap-4 lg:gap-6'>
+              <div className='md:w-[50%]'>
                 <label htmlFor="email" className="block text-text mb-1 ml-2">Email</label>
                 <input
                   type="email"
@@ -128,7 +128,7 @@ const Contact = () => {
                 {formErrors.email && <span className='text-red-500'>{formErrors.email}</span>}
               </div>
 
-              <div className='w-[50%]'>
+              <div className='md:w-[50%]'>
                 <label htmlFor="phone" className="block text-text mb-1 ml-2">Phone</label>
                 <InputMask
                   mask="(999) 999-9999"

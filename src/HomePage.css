@@ -289,18 +289,6 @@ header.scrolled {
     }
   }
 
-  /* medium mobile */
-  /* @media (max-height: 850px) {
-    .mobile-form {
-      margin: 0 3rem;
-    }
-  }
-  @media (max-width: 420px) {
-    .mobile-form {
-      margin: 0 3rem;
-    }
-  } */
-
     /**/
     @media (min-width: 420px) {
       .contact-mobile {
