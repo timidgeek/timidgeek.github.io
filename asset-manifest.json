@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.70c299fd.css",
-    "main.js": "/static/js/main.76b83b0d.js",
+    "main.js": "/static/js/main.7908e390.js",
     "static/media/TherapySite.gif": "/static/media/TherapySite.5e0ffc8a06fe8dcc1d93.gif",
     "static/media/squiggle-frame.svg": "/static/media/squiggle-frame.3896fedadb8f601aea1c8931d4d5cbe0.svg",
     "static/media/squiggle-circle.svg": "/static/media/squiggle-circle.e14b1aedae01838a04fc0f0c62cfc472.svg",
@@ -15,10 +15,10 @@
     "static/media/Contact.svg": "/static/media/Contact.d75ab4ea29e47ed7f2ca.svg",
     "index.html": "/index.html",
     "main.70c299fd.css.map": "/static/css/main.70c299fd.css.map",
-    "main.76b83b0d.js.map": "/static/js/main.76b83b0d.js.map"
+    "main.7908e390.js.map": "/static/js/main.7908e390.js.map"
   },
   "entrypoints": [
     "static/css/main.70c299fd.css",
-    "static/js/main.76b83b0d.js"
+    "static/js/main.7908e390.js"
   ]
 }
