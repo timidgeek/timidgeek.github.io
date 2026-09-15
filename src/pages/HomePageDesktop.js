@@ -10,8 +10,8 @@ const HomePageDesktop = () => {
   const [textRef, textInView] = useInView();
 
   return (
-    <div id='home' className='bg-bg h-screen lg:h-[850px] w-full relative lg:overflow-hidden'>
-      <div className='h-full relative z-10 flex flex-col lg:flex-row-reverse justify-center w-[85vw] lg:justify-between lg:gap-16 lg:w-[80vw] 2xl:max-w-[1400px] m-auto items-center'>
+    <div id='home' className='bg-bg min-h-screen lg:h-[850px] w-full relative lg:overflow-hidden'>
+      <div className='h-full relative z-10 flex flex-col pt-[100px] lg:pt-0 lg:flex-row-reverse justify-center w-[85vw] lg:justify-between lg:gap-16 lg:w-[80vw] 2xl:max-w-[1400px] m-auto items-center'>
 
         <div ref={imageRef} className={`relative ${imageInView ? 'animate-bubble-in' : 'opacity-0'}`}>
           <Frame className='opacity-50 absolute left-1/2 top-1/2 z-0 -translate-x-1/2 -translate-y-1/2 aspect-[3/4] object-cover w-[250px] md:w-[400px] 2xl:w-[500px]' />

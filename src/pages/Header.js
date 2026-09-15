@@ -8,6 +8,7 @@ import Sparkle from '../components/Sparkle';
 
 function Header() {
 	const [isScrolled, setIsScrolled] = useState(false);
+	const [pastContact, setPastContact] = useState(false);
 
 	useEffect(() => {
 		// handle nav-icon click (keeps previous behavior)
@@ -15,8 +16,12 @@ function Header() {
 		const onIconClick = function () { this.classList.toggle('open'); };
 		if (icon) icon.addEventListener('click', onIconClick);
 
-		// scroll handler to update `isScrolled`
-		const onScroll = () => setIsScrolled(window.scrollY > 0);
+		// scroll handler to update `isScrolled` / `pastContact`
+		const onScroll = () => {
+			setIsScrolled(window.scrollY > 0);
+			const contact = document.getElementById('contact');
+			setPastContact(contact ? contact.getBoundingClientRect().top <= window.innerHeight : false);
+		};
 		window.addEventListener('scroll', onScroll, { passive: true });
 		// initialize
 		onScroll();
@@ -50,7 +55,7 @@ function Header() {
 				onClick={() => smoothScroll('top')}
 				className={`fixed bottom-5 right-5 z-50 bg-bg/60 border-text border-2 text-text h-12 w-12 rounded-full shadow-lg 
 		hover:bg-bg transition-all duration-300
-		${isScrolled ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+		${isScrolled && !pastContact ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
 			>
 				<FontAwesomeIcon icon={faArrowUpLong} />
 			</button>

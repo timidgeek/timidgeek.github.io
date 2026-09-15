@@ -49,7 +49,7 @@ const HamburgerMenu = ({ position }) => {
           className={`absolute ${position === 'top' ? 'top-3' : 'bottom-6 right-3'} right-1 z-[70] focus:outline-none flex items-center justify-center w-10 h-10`}
         >
           <div className="flex flex-col items-center justify-center gap-[5px]">
-            <span className={`block h-[2px] w-5 transition-transform duration-300 ease-in-out origin-center ${position === 'top' ? 'bg-text' : 'bg-light'} ${isOpen ? 'translate-y-[12px] rotate-45 bg-text' : ''}`} />
+            <span className={`block h-[2px] w-5 transition-transform duration-300 ease-in-out origin-center ${position === 'top' ? 'bg-text' : 'bg-light'} ${isOpen ? 'translate-y-[12px] rotate-45 bg-text' : ''} ${position === 'bottom' && isOpen === true ? 'translate-y-[11px]' : ''}`} />
             <span className={`block h-[2px] w-5 transition-opacity duration-200 ease-in-out ${position === 'top' ? 'bg-text' : 'bg-light'} ${isOpen ? 'opacity-0' : 'opacity-100'}`} />
             <span className={`block h-[2px] w-5 transition-transform duration-300 ease-in-out origin-center ${position === 'top' ? 'bg-text' : 'bg-light'} ${isOpen ? '-translate-y-[3px] -rotate-45 bg-text' : ''}`} />
           </div>

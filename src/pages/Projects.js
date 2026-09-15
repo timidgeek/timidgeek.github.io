@@ -77,10 +77,10 @@ const Projects = () => {
   };
 
   return (
-    <div id='projects' className='bg-bg flex flex-col p-10 md:pt-20 lg:p-0 lg:py-20'>
+    <div id='projects' className='bg-bg flex flex-col py-10 md:pt-20 lg:py-20'>
       <div
         ref={sectionRef}
-        className={`md:w-[85vw] 2xl:max-w-[1400px] mx-auto ${sectionInView ? 'animate-bubble-in' : 'opacity-0'}`}
+        className={`max-w-[85vw] 2xl:max-w-[1400px] mx-auto ${sectionInView ? 'animate-bubble-in' : 'opacity-0'}`}
       >
         <div>
           <h1 className=''>Selected Work</h1>
@@ -131,7 +131,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <hr className='block md:mx-10 lg:mx-52 xl:hidden mt-14'></hr>
+      <hr className='block mx-10 lg:mx-52 xl:hidden mt-14'></hr>
     </div>
   )
 }
